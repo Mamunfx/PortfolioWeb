@@ -8,32 +8,64 @@ import {
 
 import './index.css'
 import App from './App';
-import Navbar from './Components/Navbar';
-import Services from './Components/services';
-import Aboutme from './Components/Aboutme';
 
+import Aboutme from './Components/Aboutme';
+import Banner from './Components/Banner';
+import Services from './Components/Services';
+import ExtraBanner from './Components/ExtraBanner';
+import Skills from './Components/Skills';
+import Portfolio from './Components/Portfolio';
+import Testimonial from './Components/Testimonial';
+import GetInTouch from './Components/GetInTouch';
+import Footer from './Components/Footer';
+
+// Main router setup
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
-    children: [
-      {
-        path:"/",
-        element:<Navbar></Navbar>
-      },
-      {
-        path:"/Services",
-        element:<Services></Services>
-      },
-      {
-        path:"/AboutMe",
-        element:<Aboutme></Aboutme>
-      },
-    ],
+    element: (
+      <>
+        <App />
+        
+      </>
+    ),
+  },
+  {
+    path: "/aboutme",
+    element: <Aboutme />,
+  },
+  {
+    path: "/services",
+    element: <Services />,
+  },
+  {
+    path: "/extrabanner",
+    element: <ExtraBanner />,
+  },
+  {
+    path: "/skills",
+    element: <Skills />,
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
+  },
+  {
+    path: "/testimonial",
+    element: <Testimonial />,
+  },
+  {
+    path: "/getintouch",
+    element: <GetInTouch />,
+  },
+  {
+    path: "/footer",
+    element: <Footer />,
   },
 ]);
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
-)
+);
