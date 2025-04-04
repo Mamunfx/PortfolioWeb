@@ -29,12 +29,12 @@ const Navbar = () => {
                             <li><a href="#skills" className="hover:underline">Skills</a></li>
                             <li><a href="#portfolio" className="hover:underline">Portfolio</a></li>
                             <li><a href="#testimonial" className="hover:underline">Testimonial</a></li>
-                            <li><a href="#getintouch" className="hover:underline">Get in Touch</a></li>
+                            
                         </ul>
                     </div>
                     <a className="btn btn-ghost absolute top-11 z-10 text-4xl">LOGO</a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-end hidden lg:flex mr-10">
                     <ul className="menu menu-horizontal px-1">
                         <li><a href="#banner" className="hover:underline">Home</a></li>
                         <li><a href="#services" className="hover:underline ">Services</a></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <li><a href="#skills" className="hover:underline ">Skills</a></li>
                         <li><a href="#portfolio" className="hover:underline ">Portfolio</a></li>
                         <li><a href="#testimonial" className="hover:underline ">Testimonial</a></li>
-                        <li><a href="#getintouch" className="hover:underline ">Get in Touch</a></li>
+                       
                     </ul>
                 </div>
             </div>
