@@ -14,7 +14,7 @@ import ACI from './Components/ACI';
 function App() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <section id="banner">
         <Banner />
       </section>
@@ -41,7 +41,7 @@ function App() {
       </section>
       <section id="footer">
         <Footer />
-      </section> */}
+      </section>
 
     </>
   );
