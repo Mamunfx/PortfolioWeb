@@ -1,5 +1,8 @@
 import React from 'react';
 import { BsSkype } from "react-icons/bs";
+import { BsBrowserSafari } from "react-icons/bs";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 const Banner = () => {
   return (
     <div className="hero min-h-screen bg-gray-600 mt-12 pt-8">
@@ -38,12 +41,23 @@ const Banner = () => {
         </div>
         <p className='text-xs'>@2022 Mamun. All Right Reserved</p>
 
-        <div>
+        <div className='flex justify-center gap-3 pb-8'>
+        <div className='border p-2 rounded-full'>
         <BsSkype />
-        
+        </div>
+        <div className='border p-2 rounded-full'>
+        <BsBrowserSafari />
+        </div>
+        <div className='border p-2 rounded-full'>
+        <IoLogoInstagram />
+        </div>
+        <div className='border p-2 rounded-full'>
+        <FaGithub />
         </div>
 
-        <button className="btn  bg-slate-600 text-white w-full">Hire me</button>
+        </div>
+
+        <button className="btn  bg-slate-600 text-white w-full rounded-full">Hire me</button>
         </div>
       </div>
 
