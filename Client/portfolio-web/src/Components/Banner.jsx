@@ -1,41 +1,49 @@
 import React from 'react';
-
+import { BsSkype } from "react-icons/bs";
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-gray-600 ">
+    <div className="hero min-h-screen bg-gray-600 mt-12 pt-8">
   
-      <div className="hero-content text-neutral-content grid grid-cols-2">
+      <div className="hero-content text-neutral-content flex ">
 
-        <div className=" text-left items-start">
-          <h1 className="mb-5 text-5xl font-bold">Say Hi from Mamun, Web developer and designer</h1>
-          <p className="mb-5 w-4/6">
-            I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.
+        <div className=" text-left items-start space-y-8">
+          <h1 className="mb-5 text-6xl font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>
+          <p className="mb-5 w-4/6 text-sm">
+            I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
           </p>
 
-          <div className='flex'>
-            <div>
-              <h1>10+</h1>
-              <h1>Years of experiences</h1>
+          <div className='flex pt-24 gap-28'>
+            <div className='space-y-4'>
+              <h1 className='text-7xl font-extrabold text-green-500'>10+</h1>
+              <h1 className='text-sm'>Years of <br /> experiences</h1>
             </div>
-            <div>
-              <h1>180+</h1>
-              <h1>Project completed on 13 countries</h1>
+            <div className='space-y-4'>
+              <h1 className='text-7xl font-extrabold text-green-500'>180+</h1>
+              <h1 className='text-sm'>Project completed on <br /> 13 countries</h1>
             </div>
           </div>
           
         </div>
 
-        <div>
-        <div>
-          <h1>MAMUN</h1>
-          <h1>Web designer and developer</h1>
+        <div className='border rounded-2xl p-8 px-12 space-y-8 text-center text-lg'>
+        <div className='flex justify-between mb-12'>
+          <h1 className=' font-bold text-2xl'>MAMUN</h1>
+          <h1 className='text-right text-sm'>Web designer <br />& developer</h1>
         </div>
+        <div className='space-y-4 '>
+        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-56 w-[38rem] rounded-2xl '/>
         <div>
-        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-48 w-60 rounded-2xl'/>
-        <h1>hello@Mamun.developer</h1>
-        <h1>Base in Dhaka,Bangladesh</h1>
-        <p>@2022 Mamun. All Right Reserved</p>
-        <button className="btn  bg-slate-600 text-white">Hire me</button>
+        <h1>hi@Mamun.developer</h1>
+        <h1>Base in Dhaka,Bangladesh.</h1>
+        </div>
+        <p className='text-xs'>@2022 Mamun. All Right Reserved</p>
+
+        <div>
+        <BsSkype />
+        
+        </div>
+
+        <button className="btn  bg-slate-600 text-white w-full">Hire me</button>
         </div>
       </div>
 
