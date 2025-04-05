@@ -9,11 +9,12 @@ import Portfolio from './Components/Portfolio';
 import Testimonial from './Components/Testimonial';
 import GetInTouch from './Components/GetInTouch';
 import Footer from './Components/Footer';
+import ACI from './Components/ACI';
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <section id="banner">
         <Banner />
       </section>
@@ -40,7 +41,8 @@ function App() {
       </section>
       <section id="footer">
         <Footer />
-      </section>
+      </section> */}
+
     </>
   );
 }

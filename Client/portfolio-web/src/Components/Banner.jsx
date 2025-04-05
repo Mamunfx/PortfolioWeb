@@ -2,23 +2,45 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage: "url(https://i.ibb.co.com/nRHX81h/successful-young-businesswoman-standing-office-presenting.jpg)",
-      }}
-    >
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-neutral-content">
-        <div className="absolute left-12 w-2/3 text-left items-start">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+    <div className="hero min-h-screen bg-gray-600 ">
+  
+      <div className="hero-content text-neutral-content grid grid-cols-2">
+
+        <div className=" text-left items-start">
+          <h1 className="mb-5 text-5xl font-bold">Say Hi from Mamun, Web developer and designer</h1>
           <p className="mb-5 w-4/6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+            I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+
+          <div className='flex'>
+            <div>
+              <h1>10+</h1>
+              <h1>Years of experiences</h1>
+            </div>
+            <div>
+              <h1>180+</h1>
+              <h1>Project completed on 13 countries</h1>
+            </div>
+          </div>
+          
+        </div>
+
+        <div>
+        <div>
+          <h1>MAMUN</h1>
+          <h1>Web designer and developer</h1>
+        </div>
+        <div>
+        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-48 w-60 rounded-2xl'/>
+        <h1>hello@Mamun.developer</h1>
+        <h1>Base in Dhaka,Bangladesh</h1>
+        <p>@2022 Mamun. All Right Reserved</p>
+        <button className="btn  bg-slate-600 text-white">Hire me</button>
         </div>
       </div>
+
+      </div>
+
     </div>
   );
 };
