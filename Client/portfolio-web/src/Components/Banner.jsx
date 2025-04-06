@@ -11,7 +11,7 @@ const Banner = () => {
 
         <div className=" text-left items-start space-y-8">
           <h1 className="mb-5 text-6xl font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>
-          <p className="mb-5 w-4/6 text-sm">
+          <p className="mb-5 w-4/6 font-semibold">
             I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
           </p>
 
