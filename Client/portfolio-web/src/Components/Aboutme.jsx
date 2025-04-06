@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 const Aboutme = () => {
     return (
       <div>
-        <h1 className="text-4xl font-bold my-12 mt-20 text-center">About Me</h1>
+        <h1 className="text-4xl font-bold my-12 mt-36 text-center">About Me</h1>
 
         <div className="hero min-h-screen bg-gray-600">
           <div className="hero-overlay bg-opacity-60"></div>
