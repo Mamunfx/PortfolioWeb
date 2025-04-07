@@ -10,7 +10,7 @@ const Services = () => {
     <div className="w-11/12 mx-auto ">
       <h1 className="text-4xl font-bold my-8 mt-28 text-center">My Services</h1>
 
-      <div className="grid grid-cols-3 ml-[3%] mt-24 gap-4 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 ml-[3%] mt-24 lg:gap-4 gap-12">
         <div className="card text-left">
           <div className=" items-left text-left  space-y-6">
             <div className="text-7xl  text-green-600">
@@ -66,7 +66,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 ml-[3%] mt-24 gap-4 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 ml-[3%] mt-24 lg:gap-4 gap-12 ">
         <div className="card text-left">
           <div className=" items-left text-left  space-y-6">
             <div className="text-7xl  text-green-600">

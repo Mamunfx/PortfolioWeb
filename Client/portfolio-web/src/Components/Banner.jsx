@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="hero min-h-screen bg-gray-600 mt-20 pt-8 ">
   
-      <div className=" text-neutral-content grid lg:grid-cols-3    w-10/12 py-8 ">
+      <div className=" text-neutral-content grid lg:grid-cols-3 lg:gap-0 gap-8  w-10/12 py-8 ">
 
         <div className=" text-left items-start space-y-8 pt-20 col-span-2 ">
           <h1 className="mb-5 text-6xl lg:text-[5rem]  font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>

@@ -8,11 +8,11 @@ const Aboutme = () => {
 
         <div className="hero  bg-gray-600">
           <div className="hero-overlay bg-opacity-60"></div>
-          <div className="w-10/12 text-neutral-content grid grid-cols-2 py-28">
+          <div className="w-10/12 text-neutral-content grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-8 py-28">
             <div className="flex justify-center">
               <img
                 src="https://i.ibb.co.com/7dGPF6jg/rsz-2img20220417182940-01-1.jpg"
-                className="h-[36rem] object-cover rounded-xl"
+                className="lg:h-[36rem] h-[28rem] object-cover rounded-xl"
               />
             </div>
 
@@ -45,9 +45,9 @@ const Aboutme = () => {
               </div>
               <div className="pt-10 mb-14 border-b align-middle"></div>
 
-              <div className="flex space-x-8 ">
+              <div className="flex lg:space-x-8 gap-4">
                 <a href="#getintouch">
-                  <button className="btn bg-green-600 text-white border-none rounded-sm text-xl">
+                  <button className="btn bg-green-600 text-white border-none rounded-sm text-lg lg:text-xl">
                     Contact Me <FaArrowRight />
                   </button>
                 </a>
@@ -55,7 +55,7 @@ const Aboutme = () => {
                 <a
                   href="/MD_MoonzoorMamun _Munna.pdf" // Adjust to match the file name
                   download="Md_Mamun_CV.pdf" // This sets the name of the downloaded file
-                  className="btn border-2 text-white rounded-sm text-xl bg-base-content"
+                  className="btn border-2 text-white rounded-sm lg:text-xl text-lg bg-base-content"
                 >
                   Download CV <FaDownload />
                 </a>
