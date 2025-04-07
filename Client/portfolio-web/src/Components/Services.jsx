@@ -17,9 +17,9 @@ const Services = () => {
               <GiPencilBrush />
             </div>
             <h2 className=" font-semibold text-3xl">Web Development</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
@@ -35,9 +35,9 @@ const Services = () => {
               <FaLaptopCode />
             </div>
             <h2 className=" font-semibold text-3xl">Coding</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
@@ -53,9 +53,9 @@ const Services = () => {
               <FaMobileRetro />
             </div>
             <h2 className=" font-semibold text-3xl">App Development</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
@@ -73,9 +73,9 @@ const Services = () => {
               <FaCameraRetro />
             </div>
             <h2 className=" font-semibold text-3xl">Photography</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
@@ -91,9 +91,9 @@ const Services = () => {
               <RiVideoOnAiLine />
             </div>
             <h2 className=" font-semibold text-3xl">Video Editing</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
@@ -109,9 +109,9 @@ const Services = () => {
               <FaPenFancy />
             </div>
             <h2 className=" font-semibold text-3xl">Copy Writing</h2>
-            <p className="font-semibold">
+            <p className="font-semibold w-11/12">
               Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-              Sed id mauris vel neque
+              Sed id mauris vel neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, blanditiis.
             </p>
             <div className="">
               <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">

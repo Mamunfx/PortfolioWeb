@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100 fixed top-0 left-0 w-full z-50">
-                <div className="navbar-start">
+                <div className="navbar-end">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg
@@ -83,8 +83,9 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="absolute top-11 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
+                    
                 </div>
+                <a className="absolute top-11 left-12 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
                 <div className="navbar-end hidden lg:flex mr-10">
                     <ul className="menu menu-horizontal px-1 text-lg">
                         <li>

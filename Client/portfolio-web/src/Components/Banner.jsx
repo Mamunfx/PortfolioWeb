@@ -5,24 +5,24 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-gray-600 mt-20 pt-8">
+    <div className="hero min-h-screen bg-gray-600 mt-20 pt-8 ">
   
-      <div className="hero-content text-neutral-content flex ">
+      <div className=" text-neutral-content grid lg:grid-cols-3    w-10/12 py-8 ">
 
-        <div className=" text-left items-start space-y-8">
-          <h1 className="mb-5 text-6xl font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>
-          <p className="mb-5 w-4/6 font-semibold">
+        <div className=" text-left items-start space-y-8 pt-20 col-span-2 ">
+          <h1 className="mb-5 text-6xl lg:text-[5rem]  font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>
+          <p className="mb-5 w-4/6 font-semibold lg:text-lg">
             I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
           </p>
 
           <div className='flex pt-24 gap-28'>
             <div className='space-y-4'>
               <h1 className='text-7xl font-extrabold text-green-500'>10+</h1>
-              <h1 className='text-sm'>Years of <br /> experiences</h1>
+              <h1 >Years of <br /> experiences</h1>
             </div>
             <div className='space-y-4'>
               <h1 className='text-7xl font-extrabold text-green-500'>180+</h1>
-              <h1 className='text-sm'>Project completed on <br /> 13 countries</h1>
+              <h1 >Project completed on <br /> 13 countries</h1>
             </div>
           </div>
           
@@ -34,7 +34,8 @@ const Banner = () => {
           <h1 className='text-right text-sm'>Web designer <br />& developer</h1>
         </div>
         <div className='space-y-4 '>
-        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-[26rem] w-[34rem] rounded-2xl object-cover '/>
+        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className=' 
+        lg:h-[26rem] lg:w-[30rem] rounded-2xl object-fill  '/>
         <div>
         <h1>hi@Mamun.developer</h1>
         <h1>Base in Dhaka,Bangladesh.</h1>
