@@ -7,7 +7,7 @@ const Skills = () => {
         <div>
           <h1 className="text-center font-bold text-4xl my-20">Skills Set</h1>
         </div>
-        <div className="grid grid-cols-2 w-4/5 mx-auto gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-4/5 mx-auto gap-16 lg:gap-8">
           <div className="text-lg space-y-8">
             <h1 className="text-3xl font-semibold">
               Every Day is a New Challenge

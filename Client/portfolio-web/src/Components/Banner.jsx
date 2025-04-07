@@ -17,11 +17,11 @@ const Banner = () => {
 
           <div className='flex pt-24 gap-28'>
             <div className='space-y-4'>
-              <h1 className='text-7xl font-extrabold text-green-500'>10+</h1>
+              <h1 className='lg:text-7xl text-5xl font-extrabold text-green-500'>10+</h1>
               <h1 >Years of <br /> experiences</h1>
             </div>
             <div className='space-y-4'>
-              <h1 className='text-7xl font-extrabold text-green-500'>180+</h1>
+              <h1 className='lg:text-7xl  text-5xl  font-extrabold text-green-500'>180+</h1>
               <h1 >Project completed on <br /> 13 countries</h1>
             </div>
           </div>

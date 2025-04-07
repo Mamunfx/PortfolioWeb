@@ -16,9 +16,9 @@ const ExtraBanner = () => {
           Let's work together on our next project
         </h1>
 
-        <div className="absolute top-20 right-[45%]">
+        <div className="absolute lg:top-20 top-30 lg:right-[45%] right-[30%]">
         <div class="relative  text-white border-2 border-green-600 bg-green-600 p-3 text-lg font-semibold mb-4 w-fit">
-                <div class="absolute bottom-0 left-[25%] transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[10px] border-t-green-600 border-r-[10px] border-x-transparent"></div>
+                <div class="absolute bottom-0 left-[25%]  transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[10px] border-t-green-600 border-r-[10px] border-x-transparent"></div>
                 Hire me now!
               </div>
         </div>

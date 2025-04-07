@@ -22,9 +22,9 @@ const GetInTouch = () => {
 
             </div>
 
-            <div className='flex justify-between'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
 
-                <div className='text-xl font-semibold space-y-2'>
+                <div className='lg:text-xl font-semibold space-y-2'>
                 <div className='text-6xl text-green-600 mb-4 '>
                 <IoLocationOutline />
                 </div>
@@ -34,7 +34,7 @@ const GetInTouch = () => {
                     <h1 className='text-gray-500'>Sailor Springs, IL 62434</h1>
                 </div>
 
-                <div className='text-xl font-semibold space-y-2'>
+                <div className='lg:text-xl font-semibold space-y-2'>
                 <div className='text-6xl text-green-600 mb-4 '>
                 <FaPhoneVolume />
                 </div>
@@ -44,7 +44,7 @@ const GetInTouch = () => {
                     <h1 className='text-gray-500'>+1 781-254-8437</h1>
                 </div>
 
-                <div className='text-xl font-semibold space-y-2'>
+                <div className='lg:text-xl font-semibold space-y-2'>
                 <div className='text-6xl text-green-600 mb-4 '>
                 <LuMails />
                 </div>
@@ -54,7 +54,7 @@ const GetInTouch = () => {
                     <h1 className='text-gray-500'>support@example.com</h1>
                 </div>
 
-                <div className='text-xl font-semibold space-y-2'>
+                <div className='lg:text-xl font-semibold space-y-2'>
                 <div className='text-6xl text-green-600 mb-4 '>
                 <BsChatText />
                 </div>
@@ -64,7 +64,7 @@ const GetInTouch = () => {
                 </div>
             </div>
 
-            <div className='my-16 flex '>
+            <div className='my-16 grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex-auto'>
                     <h1 className=' text-4xl font-bold my-8'>Lets Connect</h1>
                     <div className='flex flex-col gap-6'>

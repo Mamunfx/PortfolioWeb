@@ -3,7 +3,7 @@ import { BsChatRightQuoteFill } from "react-icons/bs";
 
 const Testimonial = () => {
   return (
-    <div className="my-40 w-10/12 mx-auto">
+    <div className="my-40 lg:w-10/12 mx-auto">
       <div>
         <h1 className="text-center text-4xl font-bold my-20 mt-28">Testimonials</h1>
       </div>
