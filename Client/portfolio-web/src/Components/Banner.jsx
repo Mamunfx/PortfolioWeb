@@ -58,7 +58,7 @@ const Banner = () => {
 
         </div>
 
-        <button className="btn  bg-slate-600 text-white w-full rounded-full">Hire me</button>
+        <a href="#getintouch"><button className="btn  bg-slate-600 text-white w-full rounded-full">Hire me</button></a>
         </div>
       </div>
 

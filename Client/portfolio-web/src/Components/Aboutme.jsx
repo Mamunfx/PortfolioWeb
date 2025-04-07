@@ -6,9 +6,9 @@ const Aboutme = () => {
       <div>
         <h1 className="text-4xl font-bold my-12 mt-36 text-center">About Me</h1>
 
-        <div className="hero min-h-screen bg-gray-600">
+        <div className="hero  bg-gray-600">
           <div className="hero-overlay bg-opacity-60"></div>
-          <div className="w-10/12 text-neutral-content grid grid-cols-2 ">
+          <div className="w-10/12 text-neutral-content grid grid-cols-2 py-28">
             <div className="flex justify-center">
               <img
                 src="https://i.ibb.co.com/7dGPF6jg/rsz-2img20220417182940-01-1.jpg"
@@ -46,12 +46,19 @@ const Aboutme = () => {
               <div className="pt-10 mb-14 border-b align-middle"></div>
 
               <div className="flex space-x-8 ">
-                <button className="btn bg-green-600 text-white border-none rounded-sm text-xl">
-                  Contact Me <FaArrowRight />
-                </button>
-                <button className="btn  border-2 text-white rounded-sm text-xl bg-base-content">
-                  Downloa CV <FaDownload />
-                </button>
+                <a href="#getintouch">
+                  <button className="btn bg-green-600 text-white border-none rounded-sm text-xl">
+                    Contact Me <FaArrowRight />
+                  </button>
+                </a>
+
+                <a
+                  href="/MD_MoonzoorMamun _Munna.pdf" // Adjust to match the file name
+                  download="Md_Mamun_CV.pdf" // This sets the name of the downloaded file
+                  className="btn border-2 text-white rounded-sm text-xl bg-base-content"
+                >
+                  Download CV <FaDownload />
+                </a>
               </div>
             </div>
           </div>
