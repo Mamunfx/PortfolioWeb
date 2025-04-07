@@ -30,7 +30,7 @@ const Testimonial = () => {
             <img
               src="https://i.ibb.co.com/hRm9vpc/ken.jpg"
              
-              className="w-28 h-28 rounded-full"
+              className="w-32 h-32 object-cover rounded-full"
             />
             <h1 className="text-2xl font-semibold">John Doe</h1>
             <h1 className="text-xl font-semibold text-gray-400">
@@ -69,7 +69,7 @@ const Testimonial = () => {
             <img
               src="https://i.ibb.co.com/jZ8PKF1/david.jpg"
              
-              className="w-28 h-28 rounded-full"
+              className="w-32 h-32 object-cover rounded-full"
             />
             <h1 className="text-2xl font-semibold">Breet Lee</h1>
             <h1 className="text-xl font-semibold text-gray-400">

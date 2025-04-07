@@ -42,6 +42,8 @@ function App() {
       <section id="footer">
         <Footer />
       </section>
+      
+
 
     </>
   );

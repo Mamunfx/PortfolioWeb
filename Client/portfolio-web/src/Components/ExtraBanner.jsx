@@ -9,7 +9,7 @@ const ExtraBanner = () => {
       }}
     >
 
-      <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
 
       <div className="relative z-10 text-center">
         <h1 className="text-4xl text-white mb-4">
@@ -17,8 +17,8 @@ const ExtraBanner = () => {
         </h1>
 
         <div className="absolute top-20 right-[45%]">
-        <div class="relative  text-white border-2 border-green-500 bg-green-500 p-3 text-lg font-semibold mb-4 w-fit">
-                <div class="absolute bottom-0 left-[25%] transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[10px] border-t-green-500 border-r-[10px] border-x-transparent"></div>
+        <div class="relative  text-white border-2 border-green-600 bg-green-600 p-3 text-lg font-semibold mb-4 w-fit">
+                <div class="absolute bottom-0 left-[25%] transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[10px] border-t-green-600 border-r-[10px] border-x-transparent"></div>
                 Hire me now!
               </div>
         </div>

@@ -27,12 +27,12 @@ const ACI = () => {
         </div>
 
         <div className="mt-4 mx-8 text-lg">
-          <div className="flex ">
+          <div className="flex relative">
             <div className="space-y-2">
-              <h1 className="font-bold text-2xl">Delivary Challan</h1>
+              <h1 className="font-bold text-2xl ml-[220px] mb-10">Delivary Challan</h1>
               <h1>Invoice no : </h1>
             </div>
-            <div className="ml-[300px]">
+            <div className="ml-[520px] absolute top-16">
               <h1 className="mt-2">Date : </h1>
             </div>
           </div>
@@ -60,11 +60,9 @@ const ACI = () => {
             </div>
           </div>
 
-          <div className="my-8 mt-16 font-extrabold">
-            <hr />
-          </div>
+        
 
-          <div className="flex justify-between text-lg font-semibold my-10 mt-24 w-11/12 mx-auto">
+          <div className="flex justify-between text-lg font-semibold my-10 mt-32 w-11/12 mx-auto">
             <h1 className="border-t-2 pt-2">Officer Signature</h1>
             <h1 className="border-t-2 pt-2">Client Signature</h1>
             <h1 className="border-t-2 pt-2">Business Signature</h1>

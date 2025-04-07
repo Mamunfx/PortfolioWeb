@@ -1,6 +1,10 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+    const location = useLocation();
+    const currentHash = location.hash || '#banner'; // Default to #banner for Home
+
     return (
         <div>
             <div className="navbar bg-base-100 fixed top-0 left-0 w-full z-50">
@@ -23,26 +27,120 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a href="#banner" className="   hover:underline">Home</a></li>
-                            <li><a href="#services" className="hover:underline">Services</a></li>
-                            <li><a href="#aboutme" className="hover:underline">About Me</a></li>
-                            <li><a href="#skills" className="hover:underline">Skills</a></li>
-                            <li><a href="#portfolio" className="hover:underline">Portfolio</a></li>
-                            <li><a href="#testimonial" className="hover:underline">Testimonial</a></li>
-                            
+                            <li>
+                                <a
+                                    href="#banner"
+                                    className={`${
+                                        currentHash === '#banner' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#services"
+                                    className={`${
+                                        currentHash === '#services' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#aboutme"
+                                    className={`${
+                                        currentHash === '#aboutme' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    About Me
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#skills"
+                                    className={`${
+                                        currentHash === '#skills' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#portfolio"
+                                    className={`${
+                                        currentHash === '#portfolio' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#testimonial"
+                                    className={`${
+                                        currentHash === '#testimonial' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                    }`}>
+                                    Testimonial
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <a className=" absolute top-11 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
+                    <a className="absolute top-11 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
                 </div>
                 <div className="navbar-end hidden lg:flex mr-10">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a href="#banner" className="hover:underline">Home</a></li>
-                        <li><a href="#services" className="hover:underline ">Services</a></li>
-                        <li><a href="#aboutme" className="hover:underline ">About Me</a></li>
-                        <li><a href="#skills" className="hover:underline ">Skills</a></li>
-                        <li><a href="#portfolio" className="hover:underline ">Portfolio</a></li>
-                        <li><a href="#testimonial" className="hover:underline ">Testimonial</a></li>
-                       
+                    <ul className="menu menu-horizontal px-1 text-lg">
+                        <li>
+                            <a
+                                href="#banner"
+                                className={`${
+                                    currentHash === '#banner' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#services"
+                                className={`${
+                                    currentHash === '#services' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#aboutme"
+                                className={`${
+                                    currentHash === '#aboutme' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                About Me
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#skills"
+                                className={`${
+                                    currentHash === '#skills' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#portfolio"
+                                className={`${
+                                    currentHash === '#portfolio' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#testimonial"
+                                className={`${
+                                    currentHash === '#testimonial' ? 'border-t-2 border-green-600 pt-2 rounded-none' : ''
+                                }`}>
+                                Testimonial
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

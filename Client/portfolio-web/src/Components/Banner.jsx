@@ -5,7 +5,7 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-gray-600 mt-12 pt-8">
+    <div className="hero min-h-screen bg-gray-600 mt-20 pt-8">
   
       <div className="hero-content text-neutral-content flex ">
 
@@ -30,11 +30,11 @@ const Banner = () => {
 
         <div className='border rounded-2xl p-8 px-12 space-y-8 text-center text-lg'>
         <div className='flex justify-between mb-12'>
-          <h1 className=' font-bold text-2xl'>MAMUN</h1>
+          <h1 className=' font-bold text-2xl'>MAMUN  </h1>
           <h1 className='text-right text-sm'>Web designer <br />& developer</h1>
         </div>
         <div className='space-y-4 '>
-        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-56 w-[38rem] rounded-2xl '/>
+        <img src="https://i.ibb.co.com/jVp4bs5/IMG-8269-2.jpg" className='h-[26rem] w-[34rem] rounded-2xl object-cover '/>
         <div>
         <h1>hi@Mamun.developer</h1>
         <h1>Base in Dhaka,Bangladesh.</h1>

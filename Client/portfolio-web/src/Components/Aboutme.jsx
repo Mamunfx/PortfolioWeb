@@ -12,7 +12,7 @@ const Aboutme = () => {
             <div className="">
               <img
                 src="https://i.ibb.co.com/7dGPF6jg/rsz-2img20220417182940-01-1.jpg"
-                className="h-[36rem] rounded-2xl"
+                className="h-[36rem] object-cover rounded-xl"
               />
             </div>
             <div className=" flex flex-col ">
@@ -45,7 +45,7 @@ const Aboutme = () => {
               <div className="pt-10 mb-14 border-b align-middle"></div>
 
               <div className="flex space-x-4 ">
-                <button className="btn bg-green-500 text-white border-none rounded-sm text-lg">
+                <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
                   Contact Me <FaArrowRight />
                 </button>
                 <button className="btn  border-2 text-white rounded-sm text-lg bg-base-content">

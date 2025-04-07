@@ -120,7 +120,7 @@ const GetInTouch = () => {
                         <input type="text" placeholder="Subject" className="w-full h-12 border-2 border-gray-400 rounded-md my-4" />
                         <textarea placeholder="Message" className="w-full h-32 border-2 border-gray-400 rounded-md my-4"></textarea>
                         <div className="flex justify-end">
-                        <button className="btn bg-green-500 text-white border-none rounded-sm text-lg px-12">
+                        <button className="btn bg-green-600 text-white border-none rounded-sm text-lg px-12">
                   Contact Me <FaArrowRight />
                 </button>
                         </div>
