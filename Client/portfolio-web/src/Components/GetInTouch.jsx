@@ -30,8 +30,8 @@ const GetInTouch = () => {
                 </div>
                 
                     <h1>Address</h1>
-                    <h1 className='text-gray-500'>999 Carter Street</h1>
-                    <h1 className='text-gray-500'>Sailor Springs, IL 62434</h1>
+                    <h1 className='text-gray-500'>Uttara, Dhaka</h1>
+                    <h1 className='text-gray-500'>Army Society, IL 62434</h1>
                 </div>
 
                 <div className='lg:text-xl font-semibold space-y-2'>
@@ -40,8 +40,8 @@ const GetInTouch = () => {
                 </div>
                 
                     <h1>Phone</h1>
-                    <h1 className='text-gray-500'>+1 618-689-9409</h1>
-                    <h1 className='text-gray-500'>+1 781-254-8437</h1>
+                    <h1 className='text-gray-500'>+880 188-123-1528</h1>
+                    <h1 className='text-gray-500'>+880 199-304-9420</h1>
                 </div>
 
                 <div className='lg:text-xl font-semibold space-y-2'>
@@ -50,7 +50,7 @@ const GetInTouch = () => {
                 </div>
                
                     <h1>Email</h1>
-                    <h1 className='text-gray-500'>hello@example.com</h1>
+                    <h1 className='text-gray-500'>md01993049420@gmail</h1>
                     <h1 className='text-gray-500'>support@example.com</h1>
                 </div>
 
@@ -60,7 +60,7 @@ const GetInTouch = () => {
                 </div>
                 
                     <h1 >Facebook Chat</h1>
-                    <h1 className='text-gray-500'>me.freelancer3</h1>
+                    <h1 className='text-gray-500'>md.mamun.ali.711985</h1>
                 </div>
             </div>
 
@@ -69,22 +69,29 @@ const GetInTouch = () => {
                     <h1 className=' text-4xl font-bold my-8'>Lets Connect</h1>
                     <div className='flex flex-col gap-6'>
 
-                        <div className='flex gap-6 items-center'>
+                      <a href="https://www.facebook.com/md.mamun.ali.711985" target='_blank'>
+                      <div className='flex gap-6 items-center'>
+                        
                         <div className='border border-gray-300 p-3 rounded-full text-xl'>
                         <FaFacebookF />
                         </div>
                         
                         <h1 className='text-xl font-semibold'>Facebook</h1>
+                        
                         </div>
+                      </a>
 
-                        <div className='flex gap-6 items-center'>
+                       <a href="https://x.com/MdMoonzoor" target='_blank'>
+                       <div className='flex gap-6 items-center'>
                         <div className='border border-gray-300 p-3 rounded-full text-xl'>
                         <PiBirdBold />
                         </div>
                         
                         <h1 className='text-xl font-semibold'>Twitter</h1>
                         </div>
-
+                       </a>
+                       
+                        <a href="https://www.instagram.com/mdmoonzoor" target='_blank'>
                         <div className='flex gap-6 items-center'>
                         <div className='border border-gray-300 p-3 rounded-full text-xl'>
                         <FaInstagram />
@@ -92,6 +99,7 @@ const GetInTouch = () => {
                         
                         <h1 className='text-xl font-semibold'>Intagram</h1>
                         </div>
+                        </a>
 
 
                         <div className='flex gap-6 items-center'>

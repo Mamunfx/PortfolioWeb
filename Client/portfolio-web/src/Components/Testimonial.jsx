@@ -14,27 +14,23 @@ const Testimonial = () => {
           id="slide1"
           className="carousel-item relative w-full grid grid-cols-1 gap-8"
         >
-         <div className="text-green-600 text-6xl flex justify-center -mb-4">
-         <BsChatRightQuoteFill />
-
-         </div>
+          <div className="text-green-600 text-6xl flex justify-center -mb-4">
+            <BsChatRightQuoteFill />
+          </div>
 
           <div>
             <h1 className="text-center text-2xl font-semibold w-2/3 mx-auto">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ut
-              veniam dolorum qui adipisci cumque neque quo ipsam, dicta nemo ad
-              quae!
+              "Working with Md. Moonzoor Mamun Munna was a fantastic experience! His attention to detail and ability to bring complex designs to life were incredible. Highly recommend him for any web development project!"
             </h1>
           </div>
           <div className="space-y-4 text-center flex flex-col justify-center items-center">
             <img
-              src="https://i.ibb.co.com/hRm9vpc/ken.jpg"
-             
+              src="https://i.ibb.co/hRm9vpc/ken.jpg"
               className="w-32 h-32 object-cover rounded-full"
             />
-            <h1 className="text-2xl font-semibold">John Doe</h1>
+            <h1 className="text-2xl font-semibold">Eric Wilson</h1>
             <h1 className="text-xl font-semibold text-gray-400">
-              Bristol Creative
+              Tech Solutions Ltd.
             </h1>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -47,33 +43,27 @@ const Testimonial = () => {
           </div>
         </div>
 
-
-
         <div
           id="slide2"
           className="carousel-item relative w-full grid grid-cols-1 gap-8"
         >
-         <div className="text-green-600 text-6xl flex justify-center -mb-4">
-         <BsChatRightQuoteFill />
-
-         </div>
+          <div className="text-green-600 text-6xl flex justify-center -mb-4">
+            <BsChatRightQuoteFill />
+          </div>
 
           <div>
             <h1 className="text-center text-2xl font-semibold w-2/3 mx-auto">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ut
-              veniam dolorum qui adipisci cumque neque quo ipsam, dicta nemo ad
-              quae!
+              "Munna’s ability to troubleshoot and optimize my website was beyond impressive. He went above and beyond to ensure everything was perfect. I'll definitely be hiring him again!"
             </h1>
           </div>
           <div className="space-y-4 text-center flex flex-col justify-center items-center">
             <img
-              src="https://i.ibb.co.com/jZ8PKF1/david.jpg"
-             
+              src="https://i.ibb.co/jZ8PKF1/david.jpg"
               className="w-32 h-32 object-cover rounded-full"
             />
-            <h1 className="text-2xl font-semibold">Breet Lee</h1>
+            <h1 className="text-2xl font-semibold">David Lee</h1>
             <h1 className="text-xl font-semibold text-gray-400">
-              Bristol Creative
+              BrightWeb Agency
             </h1>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">

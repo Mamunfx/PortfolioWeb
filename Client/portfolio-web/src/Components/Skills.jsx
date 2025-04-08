@@ -13,22 +13,15 @@ const Skills = () => {
               Every Day is a New Challenge
             </h1>
             <p className="text-md font-semibold text-gray-500">
-              In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
-              sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
-              efficitur sagittis, urna est ultricies eros, ac porta sem turpis
-              quis leo. Nulla in feugiat elit.
+              I approach every coding task with meticulous attention to detail, ensuring my work is both functional and visually appealing. Each project is an opportunity to learn and grow.
             </p>
             <p className="text-md font-semibold text-gray-500">
-              Phasellus accumsan scelerisque dolor, quis mattis justo bibendum
-              non. Nulla sollicitudin turpis in enim elementum varius.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia Curae
+              My expertise spans front-end and full-stack web development, with proficiency in React, Tailwind CSS, MongoDB, and responsive design principles to create exceptional user experiences.
             </p>
             <button className="btn bg-green-500 text-white border-none rounded-sm text-lg">
                   Contact Me <FaArrowRight />
                 </button>
           </div>
-
 
           <div className="text-xl space-y-8 font-semibold">
             
