@@ -12,7 +12,7 @@ const ExtraBanner = () => {
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl text-white mb-4">
+        <h1 className="text-3xl w-10/12 lg:w-full mx-auto lg:text-5xl text-white mb-4">
           Let's work together on our next project
         </h1>
 

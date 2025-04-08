@@ -15,7 +15,7 @@ const GetInTouch = () => {
         <div className="my-16 w-10/12 mx-auto">
 
             <div className='flex justify-center my-8 mb-24'>
-            <div class="relative  text-black border-4 border-black p-5 text-4xl font-semibold mb-4 w-fit">
+            <div class="relative text-black  border-4 border-black p-5 text-4xl font-semibold mb-4 w-fit">
                 <div class="absolute bottom-0 left-[25%] transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[20px] border-t-black border-r-[20px] border-x-transparent"></div>
                 Get In Touch
               </div>

@@ -5,13 +5,13 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-gray-600 mt-20 pt-8 ">
+    <div className="hero min-h-screen bg-gray-600 mt-16 lg:mt-0 pt-8 lg:pt-12 ">
   
-      <div className=" text-neutral-content grid lg:grid-cols-3 lg:gap-0 gap-8  w-10/12 py-8 ">
+      <div className=" text-neutral-content grid lg:grid-cols-3   w-10/12 py-8 space-y-14 lg:space-y-14">
 
-        <div className=" text-left items-start space-y-8 pt-20 col-span-2 ">
-          <h1 className="mb-5 text-6xl lg:text-[5rem]  font-semibold w-4/5">Say Hi from Mamun, Web developer and designer</h1>
-          <p className="mb-5 w-4/6 font-semibold lg:text-lg">
+        <div className=" text-left items-start space-y-8 lg:pt-32 col-span-2 ">
+          <h1 className="mb-5 text-[3rem] lg:text-7xl font-semibold w-full lg:w-4/6">Say Hi from Mamun, Web developer and designer</h1>
+          <p className="mb-5 w-full lg:w-4/6 font-semibold lg:text-xl">
             I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
           </p>
 
@@ -28,7 +28,7 @@ const Banner = () => {
           
         </div>
 
-        <div className='border rounded-2xl p-8 px-12 space-y-8 text-center text-lg'>
+        <div className='border rounded-2xl p-8 px-12 space-y-8 text-center text-lg '>
         <div className='flex justify-between mb-12'>
           <h1 className=' font-bold text-2xl'>MAMUN  </h1>
           <h1 className='text-right text-sm'>Web designer <br />& developer</h1>

@@ -5,7 +5,7 @@ const Skills = () => {
     return (
       <div className="my-8">
         <div>
-          <h1 className="text-center font-bold text-4xl my-20">Skills Set</h1>
+          <h1 className="text-center font-bold text-4xl lg:my-20 my-12 mt-24 ">Skills Set</h1>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 w-4/5 mx-auto gap-16 lg:gap-8">
           <div className="text-lg space-y-8">
@@ -66,7 +66,7 @@ const Skills = () => {
             <div className=' border-b-4 border-green-500 '>
             </div>
 
-            <div className="flex justify-between pt-4 w-6/12">
+            <div className="flex justify-between pt-4 w-7/12">
               <h1>Copywriting</h1>
               <div class="relative   border-2 border-black p-1 text-sm w-fit">
                 <div class="absolute bottom-0 left-[25%] transform -translate-x-1/2 translate-y-full w-0 h-0 border-t-[10px] border-t-black border-r-[10px] border-x-transparent"></div>
