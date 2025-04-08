@@ -8,7 +8,7 @@ const Aboutme = () => {
 
         <div className="hero  bg-gray-600">
           <div className="hero-overlay bg-opacity-60"></div>
-          <div className="w-10/12 text-neutral-content grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-8 py-28">
+          <div className="w-10/12 text-neutral-content grid grid-cols-1 lg:grid-cols-2  gap-8 py-28">
             <div className="flex justify-center">
               <img
                 src="https://i.ibb.co.com/7dGPF6jg/rsz-2img20220417182940-01-1.jpg"
