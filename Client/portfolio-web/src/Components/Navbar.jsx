@@ -85,7 +85,7 @@ const Navbar = () => {
                     </div>
                     
                 </div>
-                <a href='#banner' className="absolute top-11 left-12 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
+                <a href='' className="absolute top-11 left-12 z-10 text-4xl p-3 font-semibold bg-green-500 flex justify-center">M.</a>
                 <div className="navbar-center hidden lg:flex mr-10">
                     <ul className="menu menu-horizontal px-1 text-lg">
                         <li>

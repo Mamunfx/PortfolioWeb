@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
+
 const Aboutme = () => {
     return (
       <div>
@@ -23,8 +24,10 @@ const Aboutme = () => {
               </div>
 
               <p className="mb-5 text-xl font-semibold text-gray-400 w-11/12">
-                I specialize in creating dynamic and user-friendly websites that leave a lasting impression. With each project, I aim to merge creativity and functionality to deliver exceptional results.
-              </p>
+  I create dynamic, user-friendly websites with creativity and precision. My journey began with a love for coding, mastering React, Tailwind CSS, and MongoDB. Beyond programming, I’m passionate about fitness, tech gadgets, and exploring Halal investments, all with a detail-focused approach to achieving excellence.
+</p>
+
+
               <div className="grid grid-cols-2 gap-4 text-2xl mt-4">
                 <p className="text-left text-green-500">
                   Name : <p className="text-white text-lg">Md. Mamun</p>

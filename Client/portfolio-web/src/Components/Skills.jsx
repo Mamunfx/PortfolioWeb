@@ -18,9 +18,11 @@ const Skills = () => {
             <p className="text-md font-semibold text-gray-500">
               My expertise spans front-end and full-stack web development, with proficiency in React, Tailwind CSS, MongoDB, and responsive design principles to create exceptional user experiences.
             </p>
-            <button className="btn bg-green-500 text-white border-none rounded-sm text-lg">
+           
+            <a href='#getintouch' className="btn bg-green-500 text-white border-none rounded-sm text-lg">
                   Contact Me <FaArrowRight />
-                </button>
+                </a>
+            
           </div>
 
           <div className="text-xl space-y-8 font-semibold">
