@@ -1,0 +1,59 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Web Development",
+        "icon": "GiPencilBrush",
+        "details": {
+          "description": "I build responsive and visually appealing websites tailored to client requirements. My focus is on delivering seamless functionality and user-friendly interfaces.",
+          "buttonText": "Read More"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Coding",
+        "icon": "FaLaptopCode",
+        "details": {
+          "description": "With expertise in multiple programming languages, I provide clean, efficient code that powers high-performance, scalable applications and systems.",
+          "buttonText": "Read More"
+        }
+      },
+      {
+        "id": 3,
+        "title": "App Development",
+        "icon": "FaMobileRetro",
+        "details": {
+          "description": "I specialize in creating feature-rich mobile applications that combine sleek design with powerful performance, ensuring a smooth user experience.",
+          "buttonText": "Read More"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Photography",
+        "icon": "FaCameraRetro",
+        "details": {
+          "description": "Capturing moments with creativity and precision, I deliver high-quality images that convey the perfect mood and message for clients.",
+          "buttonText": "Read More"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Video Editing",
+        "icon": "RiVideoOnAiLine",
+        "details": {
+          "description": "I craft engaging video content by blending expert editing skills with storytelling, delivering videos that captivate and inspire.",
+          "buttonText": "Read More"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Copy Writing",
+        "icon": "FaPenFancy",
+        "details": {
+          "description": "I craft compelling, persuasive content tailored to your audience, helping businesses communicate effectively and stand out.",
+          "buttonText": "Read More"
+        }
+      }
+    ]
+  }
+  

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { GiPencilBrush } from "react-icons/gi";
 import { FaCameraRetro } from "react-icons/fa";
 import { RiVideoOnAiLine } from "react-icons/ri";
@@ -7,6 +7,12 @@ import { FaLaptopCode } from "react-icons/fa";
 import { FaMobileRetro } from "react-icons/fa6";
 
 const Services = () => {
+  const [services, setServices] = useState([]);
+  useEffect(()=>{
+    fetch("/Data.json")
+      .then((res) => res.json())
+      .then((data) => setServices(data.services));
+  },([]))
   return (
     <div className="w-11/12 mx-auto ">
       <h1 className="text-4xl font-bold my-8 mt-28 text-center">My Services</h1>
@@ -116,6 +122,30 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 ml-[3%] mt-24 lg:gap-4 gap-12 ">
+      {
+        services.map((service) => (
+          <div key={service.id} className="card text-left">
+            <div className="items-left text-left space-y-6">
+              
+              <h2 className="font-semibold text-3xl">{service.title}</h2>
+              <p className="font-semibold w-11/12">
+                {service.details.description}
+              </p>
+              <div className="">
+                <button className="btn bg-green-600 text-white border-none rounded-sm text-lg">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+          
+      </div>
+
+      
     </div>
   );
 };
