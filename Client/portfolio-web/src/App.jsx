@@ -10,6 +10,7 @@ import Testimonial from './Components/Testimonial';
 import GetInTouch from './Components/GetInTouch';
 import Footer from './Components/Footer';
 import ACI from './Components/ACI';
+import GrowChart from './Components/GrowChart';
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
       <section id="portfolio">
         <Portfolio />
       </section>
+
+      <section id="GrowChart">
+        <GrowChart></GrowChart>
+      </section>
+
       <section id="testimonial">
         <Testimonial />
       </section>
