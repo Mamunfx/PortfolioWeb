@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
@@ -21,9 +22,9 @@ const Portfolio = () => {
                 <h2 className="card-title text-2xl">Skin Care</h2>
                 <p className='font-semibold '>Revitalize your skin with customized solutions and products and many quiries.</p>
                 <div className="card-actions justify-start">
-                 <a href="https://github.com/Mamunfx/skinCare" target='_blank'>
-                 <button className="btn rounded-sm bg-green-600 text-white font-semibold">Details</button>
-                 </a>
+                <Link to="/CareDetails">
+                  <button className="btn rounded-sm bg-green-600 text-white font-semibold">Details</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -41,9 +42,10 @@ const Portfolio = () => {
                 <h2 className="card-title text-2xl">Arsenal </h2>
                 <p className='font-semibold w-11/12'>Equip yourself with top-tier gear for every sport and see the latest offers by your choise .</p>
                 <div className="card-actions justify-start">
-                 <a href="https://github.com/Mamunfx/Arsenal" target='_blank'>
-                 <button className="btn rounded-sm bg-green-600 text-white font-semibold">Details</button>
-                 </a>
+                  <Link to="/ArsenalDetails">
+                  <button className="btn rounded-sm bg-green-600 text-white font-semibold">Details</button>
+                  </Link>
+                 
                 </div>
               </div>
             </div>
@@ -62,9 +64,9 @@ const Portfolio = () => {
                 <h2 className="card-title text-2xl">Team Pulse</h2>
                 <p className='font-semibold '>Its a team management webapp .Boost efficiency through enhanced collaboration and project tracking tools .</p>
                 <div className="card-actions justify-start">
-                  <a href="https://github.com/Mamunfx/TeamPulse" target='_blank'>
+                <Link to="/TeamPulseDetails">
                   <button className="btn rounded-sm bg-green-600 text-white font-semibold">Details</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

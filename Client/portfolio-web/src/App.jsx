@@ -9,7 +9,7 @@ import Portfolio from './Components/Portfolio';
 import Testimonial from './Components/Testimonial';
 import GetInTouch from './Components/GetInTouch';
 import Footer from './Components/Footer';
-import ACI from './Components/ACI';
+
 import GrowChart from './Components/GrowChart';
 
 function App() {

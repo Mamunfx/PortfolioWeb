@@ -40,14 +40,14 @@ const Aboutme = () => {
                   Phone : <p className="text-white text-lg">01881231528</p>
                 </p>
                 <p className="text-left text-green-500">
-                  Twitter : <p className="text-white text-lg">MdMoonzoor</p>
+                  Twitter : <p className="text-white text-lg">Md.Moonzoor</p>
                 </p>
               </div>
               <div className="pt-10 mb-14 border-b align-middle"></div>
 
               <div className="flex lg:space-x-8 gap-4">
                 <a href="#getintouch">
-                  <button className="btn bg-green-600 text-white border-none rounded-sm text-lg lg:text-xl">
+                  <button className="btn bg-green-600 text-white border-none rounded-sm text-md lg:text-xl">
                     Contact Me <FaArrowRight />
                   </button>
                 </a>
@@ -55,7 +55,7 @@ const Aboutme = () => {
                 <a
                   href="/MD_MoonzoorMamun _Munna.pdf" 
                   download="Md_Mamun_CV.pdf" 
-                  className="btn border-2 text-white rounded-sm lg:text-xl text-lg bg-base-content"
+                  className="btn border-2 text-white rounded-sm lg:text-xl text-md bg-base-content"
                 >
                   Download CV <FaDownload />
                 </a>
